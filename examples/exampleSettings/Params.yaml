@@ -19,6 +19,7 @@
 # Settings to use, possible settings are listed in the documentation (section "Customizing the extraction").
 setting:
   force2D: True
+  force2Ddimension: 0
   
 
 # Image types to use: "Original" for unfiltered image, for possible filters, see documentation.
@@ -30,4 +31,4 @@ imageType:
 featureClass:
   # redundant Compactness 1, Compactness 2 an Spherical Disproportion features are disabled by default, they can be
   # enabled by specifying individual feature names (as is done for glcm) and including them in the list.
-  shape:
+  shape: []
